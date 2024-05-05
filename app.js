@@ -19,7 +19,7 @@ app.get("/", async (req, res) => {
 
         try {
             // Attempt to login with provided credentials
-            await edupage.login(username, password);
+            await edupage.login('IvanMarianek', 'RXWEJBHTC9');
         } catch (error) {
             // If login fails, return an error response
             console.error("Login failed:", error);
